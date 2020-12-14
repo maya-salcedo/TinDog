@@ -1,6 +1,5 @@
 body { 
-    font-family: 'Montserrat-Black', sans-serif;
-    color: white;
+    font-family: 'Montserrat-Black', sans-serif;   
 }
 
 #title {
@@ -10,6 +9,7 @@ body {
 .navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;
+    color: white;
 }
 
 
@@ -20,7 +20,7 @@ body {
 
 h1 {
     font-family: 'Montserrat-Black', sans-serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
     color: white;
     font-weight: bolder;
@@ -34,7 +34,8 @@ h1 {
 
 .iphone-img {
     transform: rotate(20deg);
-    width: 80%;
+    width: 60%;
+    padding: 10%;
 
 }
 
@@ -51,4 +52,28 @@ h1 {
 
 }
 
+.pink-icon {
+    color:  #ff4c68;
+    padding: 5%;
+}
 
+.pink-icon:hover {
+    color: #f7082c;
+}
+
+#features {
+    padding: 10%;
+    text-align: center;
+    color: gray;
+    font-size: 0.9rem;
+}
+
+.spacing {
+    padding: 5%;
+}
+
+h3 {
+    color: black;
+    font-weight: 800;
+    font-size: 1.3rem;
+}
