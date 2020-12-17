@@ -15,7 +15,7 @@ body {
 
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1 {
@@ -40,10 +40,11 @@ h2 {
 
 
 .iphone-img {
-    transform: rotate(20deg);
-    width: 60%;
-    padding: 10%;
-
+    transform: rotate(25deg);
+    width: 75%;
+    padding: 7%;
+    position: absolute;
+    right: 15%;
 }
 
 /* Nav Bar */
@@ -73,6 +74,8 @@ h2 {
     text-align: center;
     color: gray;
     font-size: 0.9rem;
+    background-color: white;
+    position: relative;
 }
 
 .spacing {
@@ -126,4 +129,15 @@ h3 {
 
 .pricing-column {
     padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+    .iphone-img {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
 }
